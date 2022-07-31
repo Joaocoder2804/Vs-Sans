@@ -930,7 +930,7 @@ class PlayState extends MusicBeatState
 		doof.cameras = [camHUD];
 
                  #if android
-                 addAndroidControls
+                 addAndroidControls();
                  #end
 
 		// if (SONG.song == 'South')
